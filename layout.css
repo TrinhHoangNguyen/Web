@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 .wrapper {
     display: grid;
     grid-template-columns: 10% 80% 10%;
@@ -9,9 +10,24 @@
     justify-content: space-between;
 }
 
+.header .name {
+    margin: 10px 30px;
+}
+
+.main img {
+    width: 600px;
+    height: 300px;
+    margin-left: 150px;
+}
+
 .main {
     grid-column-start: 2;
     grid-column-end: 3;
+    display: flex;
+}
+
+.sub-main {
+    grid-column: 3/4;
 }
 
 .endmain {
@@ -21,4 +37,35 @@
 
 .footer {
     grid-column: 2/3;
+}
+
+.sub-tit {
+    font-family: 'Secular One', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    color: inherit;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    font-weight: 700;
+    display: inline-block;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.43;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.sub-tit:hover {
+    color: #6DB98B;
 }
