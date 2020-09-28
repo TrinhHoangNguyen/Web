@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+* {
+    font-family: 'Secular One', sans-serif;
+}
+
+@media screen and (min-width: 768px) .footer {
+    padding: 24px;
+}
+
+.footer {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    padding: 16px;
+    background-color: var(--theme-ui-colors-gray7, #212121);
+    color: var(--theme-ui-colors-gray1, #F6F7F8);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.footer-main {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) .footer-main {
+    max-width: 960px;
+}
+
+@media screen and (min-width: 992px) .footer-start {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.footer-start {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    margin-bottom: 24px;
+    padding-bottom: 24px;
+    margin-top: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+    border-bottom: 1px solid #757575;
+}
+
+@media screen and (min-width: 992px) .footer-title {
+    display: inherit;
+}
+
+.footer-title {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    font-weight: 600;
+    line-height: 1.4;
+    font-size: 20px;
+    margin-left: 450px;
+}
+
+.footer-start .get {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: inline-block;
+    text-align: center;
+    line-height: inherit;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    font-size: inherit;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: var(--theme-ui-colors-white, #FFFFFF);
+    background-color: var(--theme-ui-colors-primary, #008294);
+    border: 0;
+    border-radius: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: var(--theme-ui-colors-white, #FFFFFF);
+    fill: var(--theme-ui-colors-white, #FFFFFF);
+    background-color: transparent;
+    border-color: var(--theme-ui-colors-white, #FFFFFF);
+    margin-left: 16px;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 8px;
+    border-width: 2px;
+    border-style: solid;
+    outline: 0;
+}
+
+@media screen and (min-width: 700px) .footer-list {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.footer-list {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    display: grid;
+    grid-gap: 12px;
+    grid-template-columns: repeat(1, 1fr);
+    margin-bottom: 32px;
+    display: flex;
+}
+
+.footer-account {
+    box-sizing: border-box;
+    margin-right: 100px;
+    margin-left: 50px;
+    min-width: 0;
+}
+
+.footer-account .list {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.account-list {
+    list-style-type: none;
+}
+
+.account-list li {
+    margin: 0;
+    padding: 0;
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.account-list a {
+    text-decoration: none;
+    color: white;
+    padding: 16px;
+}
+
+.footer-icon {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    display: grid;
+    grid-gap: 12px;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+@media screen and (min-width: 768px) .footer-icon {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.icon {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    margin-bottom: 24px;
+}
+
+.title-icon {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.logo {
+    margin-right: 32px;
+}
+
+@media screen and (min-width: 992px) .icon-app {
+    margin-bottom: 0;
+}
+
+@media screen and (min-width: 768px) @media screen and (min-width: 576px) .icon-app {
+    margin-bottom: 40px;
+}
+
+.icon-app {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-end;
+    margin-bottom: 40px;
+    margin-left: 200px;
+}
+
+.icon-app a {
+    box-sizing: border-box;
+}
