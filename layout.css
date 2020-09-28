@@ -4,12 +4,9 @@
 }
 
 .header {
-    grid-column-start: 1;
-    grid-column-end: 3;
-}
-
-.endhead {
-    grid-column: 3/4;
+    grid-column: 1/4;
+    display: flex;
+    justify-content: space-between;
 }
 
 .main {
